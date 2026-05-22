@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.vscode/
+
+database.json
+
+tsconfig.tsbuildinfo

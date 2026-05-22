@@ -1,0 +1,24 @@
+{
+  "name": "api-github",
+  "version": "1.0.0",
+  "description": "projeto de aprendizado para o curso de desenvolvimento back-end",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node ./src/main.ts",
+    "start:dev": "node --watch ./src/main.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aronrp1989/Desafio02-API.git"
+  },
+  "keywords": [],
+  "author": "Aron Raphael Pogere",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
