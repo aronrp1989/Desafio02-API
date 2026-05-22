@@ -2,10 +2,7 @@ import { stdin, stdout } from "process"; //standardIn E standardOut -> entrada p
 import { createInterface } from "node:readline/promises";
 import { writeFile, readFile } from "node:fs/promises"; // file-system
 
-interface UsuarioGithub {
-  login: string;
-  name: string | null;
-}
+import { UsuarioGithub } from "./types/usuarioGithub";
 
 async function buscarUsuario(username: string): Promise<UsuarioGithub | null> {
   const urlBase = "https://api.github.com/users/";
